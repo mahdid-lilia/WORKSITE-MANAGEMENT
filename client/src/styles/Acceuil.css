@@ -1,0 +1,46 @@
+
+.Back-img{
+    background-image: url(../assets/img/Background3.png);
+    background-size: cover;
+    background-position: top;
+    min-height: 100vh;
+    min-width: 100vw;
+    margin: 0;
+    resize:horizontal;
+    position: relative;
+
+
+}
+.centerText {
+    text-align: center; /* This puts the text into the center of the 
+    screen. */
+  }
+
+
+.imageborder{border-radius: 25px 25px 0px 0px; }
+.each-slide > div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    height: 350px;
+  }
+  
+  .each-slide span {
+    padding: 20px;
+    font-size: 20px;
+    background: #efefef;
+    text-align: center;
+  }
+  .footer{
+    margin-top: 2rem;
+ 
+    background-color: rgb(243, 184, 138);
+    position:relative;
+    bottom: 0;
+    margin: 0;
+    left: 0;
+    right: 0;
+    min-width: 100vw; 
+
+}
